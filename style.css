@@ -5,6 +5,12 @@
     font-family:Arial, sans-serif;
 }
 
+html, body{
+    touch-action:manipulation;
+
+    overscroll-behavior:none;
+}
+
 body{
     min-height:100vh;
 
